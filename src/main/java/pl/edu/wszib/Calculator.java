@@ -14,9 +14,12 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
+        System.out.println("dzielenie !!");
         if(b == 0) {
             throw new ArithmeticException();
         }
         return ((double) a) / ((double) b);
     }
+
+
 }
